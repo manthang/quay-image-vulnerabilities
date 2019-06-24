@@ -6,8 +6,18 @@ The main program `vulscan.py` does:
 * write the result file to current directory in JSON format.
 
 --
+Usage:
+1. Clone the repo.
+2. Edit `input.json` to populate the image references you want to check vulnerabilities.
+3. Run the program:
+```
+$ python3 vulscan.py
+```
+4. See the output in `result.json` file.
+
+--
 TODO:
- + Support input file from user-provided path or stdin
+ + Support input/output file from user-provided path or stdin
  + JSON format checking before processing
 
 --
